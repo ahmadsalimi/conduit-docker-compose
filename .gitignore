@@ -58,3 +58,6 @@ Temporary Items
 /conduit-data
 /prometheus-data
 /grafana-data
+
+# Local dotenv (keep secrets out of the repo)
+.env
