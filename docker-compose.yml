@@ -19,8 +19,6 @@ services:
         # To scrape from the host, publish the port (e.g., "9090:9090").
         volumes:
             - ./conduit-data:/home/conduit/data
-        ports:
-            - "9090:9090"
 
     prometheus:
         image: prom/prometheus:latest
@@ -32,8 +30,6 @@ services:
         volumes:
             - ./prometheus.yml:/etc/prometheus/prometheus.yml
             - ./prometheus-data:/prometheus
-        ports:
-            - "9091:9090"
         depends_on:
             - conduit
 
