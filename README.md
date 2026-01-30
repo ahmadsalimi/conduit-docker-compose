@@ -96,13 +96,6 @@ sudo ufw status
 
 Contributions are welcome! Please feel free to submit issues or pull requests.
 
-## License
-
-This configuration is provided as-is. See individual component licenses:
-- [Conduit](https://github.com/psiphon-inc/conduit)
-- [Prometheus](https://github.com/prometheus/prometheus)
-- [Grafana](https://github.com/grafana/grafana)
-
 ## Support
 
 For issues related to:
